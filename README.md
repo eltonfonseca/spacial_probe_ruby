@@ -57,7 +57,7 @@ rspec
 Moviment the probe:
 
 ```bash
-ruby main.rb ['TL', 'M', 'M', 'TR', 'M']
+ruby main.rb 'TL, M, M, TR, M'
 X: 1 - Y: 2
 ```
 Reset moviments: 
@@ -76,6 +76,6 @@ Incorret moviment:
 
 
 ```bash
-ruby main.rb ['TR', 'M', 'M', 'TR', 'M']
+ruby main.rb 'TR, M, M, TR, M'
 Invalid movement, our probe cannot fly yet
 ```
