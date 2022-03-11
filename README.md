@@ -52,30 +52,10 @@ Inside container run tests with:
 rspec
 ```
 
-### Examples
-
-Moviment the probe:
-
-```bash
-ruby main.rb 'TL, M, M, TR, M'
-X: 1 - Y: 2
-```
-Reset moviments: 
-
-```bash
-ruby main.rb --reset
-Moviments Reseted
-```
-Get the current position:
-
-```bash
-ruby main.rb --position
-X: 1 - Y: 2 - FACE: Up
-```
-Incorret moviment:
+### Example
 
 
 ```bash
-ruby main.rb 'TR, M, M, TR, M'
-Invalid movement, our probe cannot fly yet
+ruby main.rb
+X: 1 - Y: 2 - Face: Up
 ```
